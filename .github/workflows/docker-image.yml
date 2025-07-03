@@ -34,7 +34,7 @@ jobs:
                 -h "$IOT_ENDPOINT" \
                 -p 8883 \
                 -t "movementfirmware/update" \
-                -m "https://raw.githubusercontent.com/mubashir-v/movement-robot/21c402c08e7f34d63f639dcc60498c88304a2008/.pio/build/esp32dev/firmware.bin" \
+                -m "https://raw.githubusercontent.com/mubashir-v/movement-robot/main/.pio/build/esp32dev/firmware.bin" \
                 --cafile /tmp/ca.pem \
                 --cert /tmp/cert.pem \
                 --key /tmp/key.pem
