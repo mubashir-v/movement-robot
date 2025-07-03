@@ -33,8 +33,8 @@ jobs:
               mosquitto_pub \
                 -h "$IOT_ENDPOINT" \
                 -p 8883 \
-                -t "esp32/update" \
-                -m "https://raw.githubusercontent.com/mubashir-v/lunar-servo/main/.pio/build/esp32dev/firmware.bin" \
+                -t "movementfirmware/update" \
+                -m "https://github.com/mubashir-v/movement-robot/raw/main/.pio/build/esp32dev/firmware.bin" \
                 --cafile /tmp/ca.pem \
                 --cert /tmp/cert.pem \
                 --key /tmp/key.pem

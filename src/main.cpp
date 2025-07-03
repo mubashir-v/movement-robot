@@ -16,9 +16,9 @@ IoTUtils *iot;
 
 // ====== Project var and constants START ======
 // OTA Firmware for Movement Control
-const char *ota_firmware_url = "https://raw.githubusercontent.com/mubashir-v/robotics-learn/main/movement-controller/.pio/build/esp32dev/firmware.bin";
+const char *ota_firmware_url = "https://github.com/mubashir-v/movement-robot/raw/main/.pio/build/esp32dev/firmware.bin";
 // MQTT Topics
-const char *ota_topic = "esp32/update";
+const char *ota_topic = "movementfirmware/update";
 const char *control_topic = "esp32/motor/control";  // Topic for motor control
 const char *acknowledge_topic = "esp32/acknowledge/";  // Topic for motor control
 
